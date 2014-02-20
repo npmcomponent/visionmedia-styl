@@ -1,25 +1,18 @@
 {
-  "name": "styl",
+  "name": "visionmedia-styl",
   "description": "CSS pre-processor built on Rework",
   "version": "0.2.7",
-  "keywords": ["css", "stylus", "preprocessor", "style"],
+  "keywords": [
+    "css",
+    "stylus",
+    "preprocessor",
+    "style"
+  ],
+  "main": "index.js",
   "dependencies": {
-    "css-whitespace": "1.1.0",
-    "debug": "*",
-    "rework": "0.18.3",
-    "commander": "1.1.1",
-    "stdin": "0.0.1",
-    "rework-mixins": "1.1.1"
-  },
-  "devDependencies": {
-    "should": "~1.2.2",
-    "mocha": "~1.9.0"
-  },
-  "bin": {
-    "styl": "bin/styl"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/visionmedia/styl.git"
+    "visionmedia-debug": "git://github.com/npmcomponent/visionmedia-debug.git",
+    "visionmedia-css-whitespace": "git://github.com/npmcomponent/visionmedia-css-whitespace.git",
+    "visionmedia-rework": "git://github.com/npmcomponent/visionmedia-rework.git",
+    "visionmedia-rework-mixins": "git://github.com/npmcomponent/visionmedia-rework-mixins.git"
   }
 }

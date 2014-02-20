@@ -3,9 +3,9 @@
  * Module dependencies.
  */
 
-var whitespace = require('css-whitespace');
-var mixins = require('rework-mixins');
-var rework = require('rework');
+var whitespace = require('visionmedia-css-whitespace');
+var mixins = require('visionmedia-rework-mixins');
+var rework = require('visionmedia-rework');
 var props = rework.properties;
 
 /**
